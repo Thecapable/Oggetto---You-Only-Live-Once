@@ -1,3 +1,4 @@
+#importing necessary libraries/packages
 import cv2
 from darkflow.net.build import TFNet
 import numpy as np
@@ -12,7 +13,7 @@ def video():
     tfnet = TFNet(options)
     colors = [tuple(255 * np.random.rand(3)) for _ in range(10)]
 
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(0) #'0' for accessing webcam feed. You can replace '0' with name and directory of a video file from your pc
     capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
     capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
@@ -26,8 +27,8 @@ def video():
                 br = (result['bottomright']['x'], result['bottomright']['y'])
                 label = result['label']
                 confidence = result['confidence']
-                text = '{}: {:.0f}%'.format(label, confidence * 100)
-                frame = cv2.rectangle(frame, tl, br, color, 5)
+                text = '{}: {:.0f}%'.format(label, confidence * 100)  #to show the name of the object and its confidence level
+                frame = cv2.rectangle(frame, tl, br, color, 5) #forms bouding boxes around objects detected
                 frame = cv2.putText(
                     frame, text, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 0), 2)
             cv2.imshow('frame', frame)
