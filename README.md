@@ -51,3 +51,4 @@ You may check out this link for knowing more about YOLO and how to implement it-
 *	APP FOR LOW-VISION COMMUNITY DUE TO HANDS-FREE APPROACH
 *	MANUFACTURING INDUSTRY( FOR EXAMPLE- DETECTING ONLY CIRCULAR OBJECTS, OR MACHINE INSPECTION, ETC)
 
+#### Though the code is pretty much self explanatory, I've still added some comments. If you have any doubts related to any chunk of code, feel free to ask. You are completely free to use this repo for your use, however I would be glad if you mention my name or link to this repo while defining the references made by you. 
