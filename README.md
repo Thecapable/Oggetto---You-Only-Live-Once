@@ -42,7 +42,7 @@ You may check out this link for knowing more about YOLO and how to implement it-
 
 # Step-5(Running the code)
 - Run [__'OGGETTO.py'__](https://github.com/Thecapable/Oggetto---You-Only-Live-Once/blob/master/OGGETTO.py) file
-- Upon clicking __Click here to select an image from the PC__ option, the [__ImgInput.py__](https://github.com/Thecapable/Oggetto---You-Only-Live-Once/blob/master/ImgInput.py) file runs and gives you the option to select an image from your pc to detect objects in it and thanks to __Ppyttsx3__, the output is spoken by your pc saying something like- _'The Objects are: dog, cat, bottle'_ along with giving out an image with bounding boxes around detected object in the original image with their names.
+- Upon clicking __Click here to select an image from the PC__ option, the [__ImgInput.py__](https://github.com/Thecapable/Oggetto---You-Only-Live-Once/blob/master/ImgInput.py) file runs and gives you the option to select an image from your pc to detect objects in it and thanks to __Pyttsx3__, the output is spoken by your pc saying something like- _'The Objects are: dog, cat, bottle'_ along with giving out an image with bounding boxes around detected object in the original image with their names.
 - Upon clicking __Click here for real-time detection__ option, the [__Try1.py__](https://github.com/Thecapable/Oggetto---You-Only-Live-Once/blob/master/Try1.py) file runs and objects are detected in real-time using your webcam by default.
 
 # Product Scope
